@@ -6,7 +6,9 @@ Reification and circuit generation happen via the GHC option `-fplugin=Reificati
 
 ## Try it out
 
-*   You'll need [graphviz](http://www.graphviz.org/) for rendering the circuit diagrams. For instance, "brew install graphv" on Mac OS, if you have [homebrew](http://brew.sh/) installed.
-*   Install with `stack build`, and run with `stack exec reify-core-examples`.
-*   Run examples with `reify-core-examples`, assuming that `~/.local/bin` is in your path.
-    If you're on Mac OS (or another OS that supports "open") and if everything is working, you'll see one or more displayed PDFs. The PDF gets saved in out/. Edit Main.hs to enable/disable test examples and add new ones.
+You'll need [graphviz](http://www.graphviz.org/) for rendering the circuit diagrams. For instance, "brew install graphviz" on Mac OS, if you have [homebrew](http://brew.sh/) installed.
+
+    stack build
+    stack exec reify-core-examples
+
+If you're on Mac OS (or another OS that supports "open") and if everything is working, you'll see one or more displayed PDFs. The PDF gets saved in out/. Edit Main.hs to enable/disable test examples and add new ones.
