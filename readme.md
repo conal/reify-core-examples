@@ -11,4 +11,6 @@ You'll need [graphviz](http://www.graphviz.org/) for rendering the circuit diagr
     stack build
     stack exec reify-core-examples
 
-If you're on Mac OS (or another OS that supports "open") and if everything is working, you'll see one or more displayed PDFs. The PDF gets saved in out/. Edit Main.hs to enable/disable test examples and add new ones.
+If you're on Mac OS (or another OS that supports "open") and if everything is working, you'll see one or more displayed PDFs. The PDF gets saved in out/.
+
+To enable/disable test examples and add new ones, edit Main.hs.
