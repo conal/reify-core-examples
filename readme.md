@@ -2,7 +2,7 @@
 
 ## Examples of core reification and Haskell-to-hardware compilation
 
-Reification and circuit generation happen via the GHC option `-fplugin=ReificationRules.Plugin` in the .cabal file and the `go` function from `ReificationRules.Run` in Main.hs.
+Reification and circuit generation happen via the GHC option `-fplugin=ReificationRules.Plugin` in the .cabal file and the `go` function from `ReificationRules.Run` in Examples.hs.
 
 ## Try it out
 
@@ -10,6 +10,6 @@ You'll need [graphviz](http://www.graphviz.org/) for rendering the circuit diagr
 
     stack build && stack exec examples
 
-If you're on Mac OS (or another OS that supports "open") and if everything is working, you'll see one or more displayed PDFs. The PDF gets saved in out/.
+If several examples are enabled, the `build` step may take a few minutes. If you're on Mac OS (or another OS that supports "open") and if everything is working, you'll see one or more displayed PDFs. The PDF gets saved in out/.
 
-To enable/disable test examples and add new ones, edit Main.hs.
+To enable/disable test examples and add new ones, edit Examples.hs.
