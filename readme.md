@@ -8,8 +8,7 @@ Reification and circuit generation happen via the GHC option `-fplugin=Reificati
 
 You'll need [graphviz](http://www.graphviz.org/) for rendering the circuit diagrams. For instance, "brew install graphviz" on Mac OS, if you have [homebrew](http://brew.sh/) installed.
 
-    stack build
-    stack exec reify-core-examples
+    stack build && stack exec examples
 
 If you're on Mac OS (or another OS that supports "open") and if everything is working, you'll see one or more displayed PDFs. The PDF gets saved in out/.
 
