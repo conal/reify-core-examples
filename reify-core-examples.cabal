@@ -7,7 +7,7 @@ build-type:          Simple
 extra-source-files:  ChangeLog.md
 cabal-version:       >=1.10
 
-executable reify-core-examples
+executable examples
   main-is:             Main.hs
   build-depends:       base >=4.9 && <4.10
                      , shaped-types
