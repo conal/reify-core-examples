@@ -6,8 +6,8 @@ packages:
   extra-dep: true
 - location:
     git: https://github.com/conal/reification-rules
-    commit: a172103bc82f8a5053a08ea6c6eddca8e59e891a
-    extra-dep: true
+    commit: 4c08cb42ecfdb0e621537f4c7ae12f8ba587362e
+  extra-dep: true
 - location:
     git: https://github.com/conal/circat
     commit: 19800ccc6b675b0b6f48a7c59c8e8d37692d0d74
