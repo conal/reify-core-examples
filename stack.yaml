@@ -1,18 +1,9 @@
 flags: {}
 packages:
 - '.'
-- location:
-    git: https://github.com/conal/shaped-types
-    commit: 213e08be9cddadb4c7cab4c181fad3adc4b981da
-  extra-dep: true
-- location:
-    git: https://github.com/conal/reification-rules
-    commit: 4c08cb42ecfdb0e621537f4c7ae12f8ba587362e
-  extra-dep: true
-- location:
-    git: https://github.com/conal/circat
-    commit: 19800ccc6b675b0b6f48a7c59c8e8d37692d0d74
-  extra-dep: true
+- ../shaped-types
+- ../reification-rules
+- ../circat
 - location:
     git: https://github.com/ku-fpg/hermit
     commit: d38052f3ec4cdbcc3ed4df308dae5588354c5be7
@@ -26,6 +17,7 @@ packages:
   - netlist-to-verilog
   extra-dep: true
 extra-deps:
+- applicative-numbers-0.1.3
 - kure-2.16.12
 - marked-pretty-1.1.2.1
 - newtype-generics-0.4

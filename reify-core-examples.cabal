@@ -9,7 +9,7 @@ cabal-version:       >=1.10
 
 executable examples
   main-is:             Examples.hs
-  build-depends:       base >=4.9 && <4.10
+  build-depends:       base >=4.9 && <4.10, keys
                      , shaped-types
                      , circat, reification-rules
   default-language:    Haskell2010
@@ -18,6 +18,6 @@ executable examples
               -fplugin=ReificationRules.Plugin
               -dcore-lint -fexpose-all-unfoldings
 
---               -fsimpl-tick-factor=200
+              -fsimpl-tick-factor=400
 
 --               -fplugin-opt=ReificationRules.Plugin:trace
